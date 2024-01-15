@@ -115,6 +115,8 @@ color: #fff;
     height: 100%;
     background-position: center;
     min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .backgrond-top::before{
@@ -734,3 +736,179 @@ padding: 15px 0;
 
 
 /* top-frequent-end */
+
+
+
+/* top_team-satted */
+
+
+.top_team{
+    width: 100%;
+    background-color: #F4F4F4;
+    padding: 50px 0;
+}
+
+.team_head {
+
+    padding: 20px 0;
+}
+
+.team_one .team-pic img{
+    width: 250px;
+    height: 250px;
+}
+
+.team_one .team-pic{
+    margin: 40px  80px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    border: 4px solid #f4f4f4;
+    box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.2);
+}
+
+.team-content{
+    text-align: center;
+}
+
+.team-content h4{
+    color: #32353a;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.team-content span{
+    font-size: 15px;
+    color: #21252999;
+    padding: 8px 0;
+}
+.team-content p{
+    font-size: 14px;
+    color: #212529;
+}
+
+
+/* top_team-end */
+
+
+
+
+/* top_action-started */
+
+
+.top_action{
+    width: 100%;
+    background-image: url(../images/cta-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.top_action::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.action_head{
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.action_head h3{
+    font-size: 28px;
+    color: #fff;
+}
+
+.action_head p{
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.action_head .pricing-btn a{
+    color: #fff;
+    border-color: #fff;
+}
+
+.action_head .pricing-btn a:hover{
+    border-color: #e84545;
+
+}
+
+
+/* top_action-end */
+
+
+
+/* top_testimonials-started */
+
+.top_testimonials{
+    width: 100%;
+    background-color: #F4F4F4;
+    padding: 50px 0;
+}
+
+.testimonials_content h3{
+    font-size: 32px;
+    color: #32353a;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.Testimonials_wrapper{
+    padding: 50px 0;
+}
+
+.testimonials_content p{
+    font-size: 16px;
+    color: #212529;
+}
+
+
+
+/* top_testimonials-end */
+
+
+
+
+/* top_recent_post-started */
+
+
+.top_recent_post{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 50px 0;
+}
+
+
+.recent_wrapper{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.post_one .post_pic img{
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
+}
+
+.child_post_pic img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+/* top_recent_post-end */
