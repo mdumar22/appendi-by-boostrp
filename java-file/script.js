@@ -9,7 +9,7 @@ $(document).ready(function(){
                 },
     
                 {
-                    duration: 5000,
+                    duration: 500,
                     easing: 'linear',
                     step: function() {
                         $this.text(Math.floor(this.countNum));
@@ -32,8 +32,38 @@ $(document).ready(function(){
                     $(this).text(Math.ceil(now));
                 }
             });
-    
+                
     
         }
+
     });
     });
+
+    /* $('.testimonials_slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: false,
+        arrows: false,
+        dotsClass: 'cus_dots',
+        prevArrow: '<button type="button" class="slick-prev cus_right_arrow"><</button>',
+         nextArrow: '<button type="button" class="slick-next cus_left_arrow">></button>',
+      }); */
+
+
+      $('.testimonials_slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        arrows: false,
+        dotsClass: 'cus_dots',
+
+ /*        nextArrow:<button type="button" class="slick-next">Next</button>, */
+      });
+
+    
+   
+  
